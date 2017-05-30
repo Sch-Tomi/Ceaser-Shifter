@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sch-Tomi/Ceaser-Shifter/issues"
   },
-  "homepage": "https://github.com/Sch-Tomi/Ceaser-Shifter#readme"
+  "homepage": "https://github.com/Sch-Tomi/Ceaser-Shifter#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
