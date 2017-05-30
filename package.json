@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Sch-Tomi/Ceaser-Shifter#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "vue": "^2.3.3"
   }
 }
