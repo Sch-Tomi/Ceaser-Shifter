@@ -30,12 +30,16 @@
                         <h3>Kulcs Generálás</h3>
                     </div>
                     <div class="panel-body">
-                        <form class="" action="index.html" method="post">
-                            <textarea id="key" name="key" class="form-control" rows="3"></textarea>
-                        </form>
-                        <input v-on:click="generate"  type="button" name="" value="Generálás">
-                    </div>
+                        <form class="form" action="index.html" method="post">
+                            <div class="form-group">
+                                <label for="key">Kulcs </label>
+                                <textarea id="key" name="key" class="form-control" rows="3"></textarea>
+                            </div>
 
+                        </form>
+                        <input v-on:click="generate" type="button" name="" value="Generálás">
+                    </div>
+                    <div class="panel-footer">Dict: <br> {{chiperDict}}</div>
                 </div>
             </div>
 
@@ -60,6 +64,7 @@
 
     <!-- JS -->
     <script src="vue/vue.js"></script>
+    <script src="axios/axios.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 
